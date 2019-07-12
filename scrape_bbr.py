@@ -6,12 +6,10 @@
 # or atleast that's the idea right now :) 
 
 from bs4 import BeautifulSoup
-import json
 import requests
 import boto3
 import datetime
 import statistics
-from scipy import stats
 
 s3 = boto3.resource('s3')
 now = datetime.datetime.now()
